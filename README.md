@@ -1,5 +1,7 @@
 # MTProto Proxy (Fake TLS) + Traefik
 
+Лучший хостинг для вашего proxy/vpn: [It Garage](https://it-garage.pro/?from=14484)
+
 Один порт **443**: по SNI трафик к домену маскировки (например `1c.ru`) уходит в MTProxy, остальное можно отдавать другим сервисам через Traefik.
 
 - **Telemt** — современный MTProxy (Rust, distroless), поддерживает Fake TLS.
